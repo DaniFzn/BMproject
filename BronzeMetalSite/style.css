@@ -1,0 +1,552 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    color: inherit;
+    text-decoration: none;
+}
+
+body{
+    background-image: linear-gradient(to bottom, #D9805F, #400F0F);
+    background-attachment: fixed;
+}
+
+/* Header */
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo img{
+    height: 80px;
+    width: 190px;
+}
+
+.menu ul{
+    display: flex;
+    gap: 14px;
+}
+
+.menu ul li{
+    box-sizing: border-box;
+    border: solid black 1px;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+.contactYear span{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.contactYear h3{
+    font-size: 12px;
+    padding: 10px;  
+}
+
+.contactYear img{
+    height: 120px;
+    width: 150px;
+}
+
+/* Header */
+/* Main */
+
+.products{
+    margin: 20px;
+    padding-bottom: 40px;
+}
+
+.products-block{
+    display: grid;
+    justify-content: center;
+}
+
+.products-block1{
+    display: flex;
+    padding: 10px;
+    padding-bottom: 60px;
+    gap: 10px;
+}
+
+.Bronze-Alumínio{
+    height: 280px;
+    width: 240px;
+    box-sizing: border-box;
+    border: solid black 2px;
+    border-radius: 40px;
+    background-image: url("imgs/products/Bronze\ Alumínio.jpg");
+    background-position: center;
+    background-size: 120%;
+    background-repeat: no-repeat;
+    filter: grayscale(0%);
+    transition: 0.5s;
+}
+
+.Bronze-Alumínio:hover{
+    filter: grayscale(70%);
+}
+
+.Bronze-Alumínio p{
+    position: absolute;
+    top: 280px;
+    left: 48px;
+    color: rgba(241, 241, 241, 0.884);
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.Bronze-Alumínio-Níquel{
+    height: 280px;
+    width: 240px;
+    box-sizing: border-box;
+    border: solid black 2px;
+    border-radius: 40px;
+    background-image: url("imgs/products/Bronze\ Alumínio\ Níquel.jpg");
+    background-position: center;
+    background-size: 120%;
+    background-repeat: no-repeat;
+    filter: grayscale(0%);
+    transition: 0.5s;
+}
+
+.Bronze-Alumínio-Níquel:hover{
+    filter: grayscale(70%);
+}
+
+.Bronze-Alumínio-Níquel p{
+    position: absolute;
+    top: 280px;
+    left: 20px;
+    color: rgba(241, 241, 241, 0.884);
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.Bronze-Alumínio-Zinco{
+    height: 280px;
+    width: 240px;
+    box-sizing: border-box;
+    border: solid black 2px;
+    border-radius: 40px;
+    background-color: rgba(255, 255, 255, 0.637);
+    background-image: url("imgs/products/Bronze\ Alumínio\ Zinco.jpg");
+    background-position: center;
+    background-size: 120%;
+    background-repeat: no-repeat;
+    filter: grayscale(0%);
+    transition: 0.5s;
+}
+
+.Bronze-Alumínio-Zinco:hover{
+    filter: grayscale(70%);
+}
+
+.Bronze-Alumínio-Zinco p{
+    position: absolute;
+    top: 280px;
+    left: 20px;
+    color: rgba(241, 241, 241, 0.884);
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.Cobre-Berílio{
+    height: 280px;
+    width: 240px;
+    box-sizing: border-box;
+    border: solid black 2px;
+    border-radius: 40px;
+    background-color: rgba(255, 255, 255, 0.637);
+    background-image: url("imgs/products/Cobre\ Berílio.jpg");
+    background-position: center;
+    background-size: 120%;
+    background-repeat: no-repeat;
+    filter: grayscale(0%);
+    transition: 0.5s;
+}
+
+.Cobre-Berílio:hover{
+    filter: grayscale(70%);
+}
+
+.Cobre-Berílio p{
+    position: absolute;
+    top: 280px;
+    left: 60px;
+    color: rgba(241, 241, 241, 0.884);
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.products-block2{
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+}
+
+.Cobre-Cobalto-Níquel-Berílio{
+    height: 280px;
+    width: 240px;
+    box-sizing: border-box;
+    border: solid black 2px;
+    border-radius: 40px;
+    background-image: url("imgs/products/Cobre\ Cobalto\ Níquel\ Berílio.jpg");
+    background-position: center;
+    background-size: 120%;
+    background-repeat: no-repeat;
+    filter: grayscale(0%);
+    transition: 0.5s;
+}
+
+.Cobre-Cobalto-Níquel-Berílio:hover{
+    filter: grayscale(70%);
+}
+
+.Cobre-Cobalto-Níquel-Berílio p{
+    position: absolute;
+    top: 280px;
+    color: rgba(241, 241, 241, 0.884);
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.Cobre-Cromo-Zircônio{
+    height: 280px;
+    width: 240px;
+    box-sizing: border-box;
+    border: solid black 2px;
+    border-radius: 40px;
+    background-color: rgba(255, 255, 255, 0.637);
+    background-image: url("imgs/products/Cobre\ Cromo\ Zircônio.jpg");
+    background-position: center;
+    background-size: 120%;
+    background-repeat: no-repeat;
+    filter: grayscale(0%);
+    transition: 0.5s;
+}
+
+.Cobre-Cromo-Zircônio:hover{
+    filter: grayscale(70%);
+}
+
+.Cobre-Cromo-Zircônio p{
+    position: absolute;
+    top: 280px;
+    left: 20px;
+    color: rgba(241, 241, 241, 0.884);
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.Cobre-Cromo-Níquel-Silício{
+    height: 280px;
+    width: 240px;
+    box-sizing: border-box;
+    border: solid black 2px;
+    border-radius: 40px;
+    background-image: url("imgs/products/Cobre\ Cromo\ Níquel\ Silício.jpg");
+    background-position: center;
+    background-size: 120%;
+    background-repeat: no-repeat;
+    filter: grayscale(0%);
+    transition: 0.5s;
+}
+
+.Cobre-Cromo-Níquel-Silício:hover{
+    filter: grayscale(70%);
+}
+
+.Cobre-Cromo-Níquel-Silício p{
+    position: absolute;
+    top: 280px;
+    color: rgba(241, 241, 241, 0.884);
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.Molibidênio{
+    height: 280px;
+    width: 240px;
+    box-sizing: border-box;
+    border: solid black 2px;
+    border-radius: 40px;
+    background-image: url("imgs/products/Molibidênio.jpg");
+    background-position: center;
+    background-size: 120%;
+    background-repeat: no-repeat;
+    filter: grayscale(0%);
+    transition: 0.5s;
+}
+
+.Molibidênio:hover{
+    filter: grayscale(70%);
+}
+
+.Molibidênio p{
+    position: absolute;
+    top: 280px;
+    left: 60px;
+    color: rgba(241, 241, 241, 0.884);
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+/* Main */
+/* Clientes */
+
+.clients{
+    margin: 20px;
+    padding-bottom: 40px;
+}
+
+.clients-block{
+    display: grid;
+    justify-content: center;
+    gap: 30px;
+}
+
+.clients-block1{
+    display: flex;
+    padding: 10px;
+    padding-bottom: 20px;
+    gap: 50px;
+}
+
+.aeroespacial{
+    height: 220px;
+    width: 220px;
+    box-sizing: border-box;
+    border: solid black 2px;
+    border-radius: 50%;
+    background-image: url("imgs/clients/Aeroespacial.jpg");
+    background-position: center;
+    background-size: 120%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: transparent;
+    filter: grayscale(0%);
+    transition: 0.5s;
+}
+
+.aeroespacial:hover{
+    transform: scale(1.2);
+    filter: grayscale(90%);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.siderurgica{
+    height: 220px;
+    width: 220px;
+    box-sizing: border-box;
+    border: solid black 2px;
+    border-radius: 50%;
+    background-image: url("imgs/clients/Siderurgia.jpg");
+    background-position: center;
+    background-size: 120%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: transparent;
+    filter: grayscale(0%);
+    transition: 0.25s;
+}
+
+.siderurgica:hover{
+    transform: scale(1.2);
+    filter: grayscale(90%);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.offshore{
+    height: 220px;
+    width: 220px;
+    box-sizing: border-box;
+    border: solid black 2px;
+    border-radius: 50%;
+    background-image: url("imgs/clients/Offshore.jpg");
+    background-position: center;
+    background-size: 120%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: transparent;
+    filter: grayscale(0%);
+    transition: 0.25s;
+}
+
+.offshore:hover{
+    transform: scale(1.2);
+    filter: grayscale(90%);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.manutencao{
+    height: 220px;
+    width: 220px;
+    box-sizing: border-box;
+    border: solid black 2px;
+    border-radius: 50%;
+    background-image: url("imgs/clients/Manutenção.jpg");
+    background-position: center;
+    background-size: 120%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: transparent;
+    filter: grayscale(0%);
+    transition: 0.25s;
+}
+
+.manutencao:hover{
+    transform: scale(1.2);
+    filter: grayscale(90%);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.clients-block2{
+    display: flex;
+    padding: 10px;
+    gap: 50px;
+}
+
+.solda-por-resistência{
+    height: 220px;
+    width: 220px;
+    box-sizing: border-box;
+    border: solid black 2px;
+    border-radius: 50%;
+    background-image: url("imgs/clients/SoldaPorResistência.jpg");
+    background-position: center;
+    background-size: 120%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: transparent;
+    filter: grayscale(0%);
+    transition: 0.25s;
+}
+
+.solda-por-resistência:hover{
+    transform: scale(1.2);
+    filter: grayscale(90%);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.indústria-plastica{
+    height: 220px;
+    width: 220px;
+    box-sizing: border-box;
+    border: solid black 2px;
+    border-radius: 50%;
+    background-image: url("imgs/clients/Industriaplástica.jpg");
+    background-position: center;
+    background-size: 120%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: transparent;
+    filter: grayscale(0%);
+    transition: 0.25s;
+}
+
+.indústria-plastica:hover{
+    transform: scale(1.2);
+    filter: grayscale(90%);
+}
+
+.indústria-plastica:hover p{
+    transform: scale(1.2);
+    filter: grayscale(90%);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.dobra-de-tubo-de-conformacao{
+    height: 220px;
+    width: 220px;
+    box-sizing: border-box;
+    border: solid black 2px;
+    border-radius: 50%;
+    background-image: url("imgs/clients/Dobradetubo.jpg");
+    background-position: center;
+    background-size: 120%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: transparent;
+    filter: grayscale(0%);
+    transition: 0.25s;
+}
+
+.dobra-de-tubo-de-conformacao:hover{
+    transform: scale(1.2);
+    filter: grayscale(90%);
+}
+
+.dobra-de-tubo-de-conformacao:hover p{
+    transform: scale(1.2);
+    filter: grayscale(90%);
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.pistoes-de-injecao{
+    height: 220px;
+    width: 220px;
+    box-sizing: border-box;
+    border: solid black 2px;
+    border-radius: 50%;
+    background-image: url("imgs/clients/PistõesdeInjeção.jpg");
+    background-position: center;
+    background-size: 120%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: transparent;
+    filter: grayscale(0%);
+    transition: 0.25s;
+}
+
+.pistoes-de-injecao:hover{
+    transform: scale(1.2);
+    filter: grayscale(90%);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bolder;
+}
